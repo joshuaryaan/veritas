@@ -346,8 +346,7 @@ p.store_home_date {
 
 #filter-container > .filter {
     border-left: none;
-    max-height: calc(100vh - 69px);
-    overflow: scroll;
+    min-height: calc(100vh - 92px);
 }
 
 #filter-refresh-container {
@@ -355,9 +354,7 @@ p.store_home_date {
 }
 
 .dashboard .col-md-2 {
-    position: fixed;
-    top: 69px; right: 0;
-    padding: 0 10px 0 20px; 
+    padding: 0 10px 5px 0; 
     overflow: hidden;
 }
 
@@ -374,8 +371,8 @@ p.store_home_date {
 }
 
 .accordion > div[class$="-content"] {
-    margin: 0 15px 0 0;
-    padding: 10px;
+    margin: 0;
+    padding: 10px 4px;
 }
 
 .col-md-4 {
