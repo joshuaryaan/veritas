@@ -3034,11 +3034,11 @@ select {
 }
 
 .main-content, .logo, .card, body {
-  background-color: #d6dadd !important;
+  background-color: #d6dadd;
 }
 
 .card {
-  background-color: #fffef2 !important;
+  background-color: #fffef2;
 }
 
 
