@@ -1,0 +1,329 @@
+table.dataTable tbody tr td {
+    white-space: nowrap !important;
+}
+
+.input-error {
+    color: red;
+    border: 1px solid red;
+}
+
+#min-max-save {
+    display: none;
+}
+
+.popover-title {
+    display: none;
+}
+
+.popover {
+    background-color: #ebe3bd;
+    border-color: #90bebb;
+    font-size: 12px;
+}
+
+.popover.top > .arrow:after {
+    border-top-color: #ebe3bd;
+}
+
+#store_kpis_table td,
+#sales_table td,
+#atv_table td,
+#upt_table td,
+#transaction_table td,
+#traffic_table td,
+#multiple_unit_sales_table td,
+#country_kpis_table td,
+#consultants_kpis_table td,
+#product_sales_by_category_table td,
+#product_sales_by_subcategory_table td,
+#product_sales_by_sku_table td,
+#product_by_store_table td,
+#product_top_selling_table td,
+#DataTables_Table_1 td,
+#DataTables_Table_0 td,
+#stock td,
+#stock_by_SKU td,
+#min_max_kpis_table td,
+    /*#store_home_table td:not(:first-child),*/
+    /*#store_home_table1 td:not(:first-child)*/
+#store_home_table td,
+#store_home_table1 td,
+#donation_table td,
+#donation_by_country td,
+#sales_report_country_table td,
+#sales_report_store_table td
+{
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #dddddd;
+}
+
+/*table td {*/
+/*border-top-color: transparent;*/
+/*border-left-color: transparent;*/
+/*border-right-color: transparent;*/
+/*border-bottom-color: #dddddd;*/
+/*}*/
+
+/*#store_home_table td:first-child{*/
+/*border-right: 1px solid #000000 !important;*/
+/*}*/
+
+body {
+    /*font-family: "Arial Narrow","SuisseIntl Medium", "Helvetica Neue", Helvetica, Arial, sans-serif !important;*/
+    font-size: 1.2em;
+    font-weight: normal !important;
+}
+
+body,
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+p,
+.navbar,
+.brand,
+.btn-simple,
+.alert,
+a,
+.td-name,
+td,
+button.close {
+    font-family: "Arial Narrow", "SuisseIntl Medium", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+table.dataTable thead th, table.dataTable tfoot th {
+    font-weight: normal;
+}
+
+#sidebar-accordion .panel-group .panel + .panel {
+    margin: 0;
+}
+
+#sidebar-accordion .panel, .panel-body {
+    border: none;
+}
+
+#sidebar-accordion .panel-group .panel {
+    border-radius: 0;
+}
+
+#sidebar-accordion .panel-default > .panel-heading {
+    background: #adb3b8;
+}
+
+#sidebar-accordion .panel-heading {
+    border-radius: 0;
+    padding: 0px 10px;
+}
+
+#sidebar-accordion .panel-title {
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+#sidebar-accordion .panel-body {
+    padding: 0px;
+}
+
+#sidebar-accordion .panel-body table tr td {
+    /*padding-left: 15px;*/
+    padding: 9px 5px 9px 20px;
+    font-size: 14px;
+    background: #e7e7e7;
+    border-top: 1px solid #ddd;
+}
+
+#sidebar-accordion .panel-body .table {
+    margin-bottom: 0px;
+}
+
+#sidebar-accordion .panel-body table tr td:hover,
+#sidebar-accordion .panel-body table tr td.active {
+    background-color: #d6dadd;
+}
+
+.sidebar .sidebar-wrapper, body > .navbar-collapse .sidebar-wrapper {
+    padding-bottom: 0
+}
+
+#store_home_table_wrapper .dataTables_scrollBody {
+    height: auto !important;
+}
+
+#store_home_table_wrapper table.dataTable tfoot th, table.dataTable tfoot td {
+    border-top: none;
+}
+
+#store_home_table1_wrapper .dataTables_scrollBody {
+    height: auto !important;
+}
+
+#store_home_table1_wrapper table.dataTable tfoot th, table.dataTable tfoot td {
+    border-top: none;
+}
+
+#store_home_table tr.even td {
+    background-color: #fffef2;
+}
+
+#store_home_table tr.even td:first-child {
+    background-color: #fffef2 !important;;
+}
+
+#store_home_table1 tr.even td {
+    background-color: #fffef2;
+}
+
+#store_home_table1 tr.even td:first-child {
+    background-color: #fffef2 !important;;
+}
+
+#store_home_table tr:nth-child(7) td,
+#store_home_table tr:nth-child(10) td,
+#store_home_table tr:nth-child(13) td,
+#store_home_table tr:nth-child(16) td,
+#store_home_table tr:nth-child(19) td,
+#store_home_table tr:nth-child(22) td,
+#store_home_table tr:nth-child(25) td,
+#store_home_table tr:nth-child(28) td,
+#store_home_table1 tr:nth-child(7) td,
+#store_home_table1 tr:nth-child(10) td,
+#store_home_table1 tr:nth-child(13) td,
+#store_home_table1 tr:nth-child(16) td,
+#store_home_table1 tr:nth-child(19) td,
+#store_home_table1 tr:nth-child(22) td,
+#store_home_table1 tr:nth-child(25) td,
+#store_home_table1 tr:nth-child(28) td {
+    border-bottom: 1px solid #000000;
+}
+
+#store_kpis_table tr td:nth-child(2),
+#store_kpis_table tr td:nth-child(8),
+#store_kpis_table tr td:nth-child(11),
+#store_kpis_table tr td:nth-child(14),
+#store_kpis_table tr td:nth-child(17),
+#store_kpis_table tr td:nth-child(20),
+#store_kpis_table tr td:nth-child(23),
+#store_kpis_table tr td:nth-child(26),
+#store_kpis_table tr td:nth-child(29),
+#store_kpis_table_wrapper tr th:nth-child(2),
+#store_kpis_table_wrapper tr th:nth-child(8),
+#store_kpis_table_wrapper tr th:nth-child(11),
+#store_kpis_table_wrapper tr th:nth-child(14),
+#store_kpis_table_wrapper tr th:nth-child(17),
+#store_kpis_table_wrapper tr th:nth-child(20),
+#store_kpis_table_wrapper tr th:nth-child(23),
+#store_kpis_table_wrapper tr th:nth-child(26),
+#store_kpis_table_wrapper tr th:nth-child(29) {
+    border-right: 1px solid #000000;
+}
+#store_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(2),
+#store_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(8),
+#store_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(11),
+#store_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(14),
+#store_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(17),
+#store_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(20),
+#store_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(23),
+#store_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(26),
+#store_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(29) {
+    border-right: none;
+}
+
+
+#store_kpis_table_interval tr td:nth-child(1),
+#store_kpis_table_interval tr td:nth-child(7),
+#store_kpis_table_interval tr td:nth-child(10),
+#store_kpis_table_interval tr td:nth-child(13),
+#store_kpis_table_interval tr td:nth-child(16),
+#store_kpis_table_interval tr td:nth-child(19),
+#store_kpis_table_interval tr td:nth-child(22),
+#store_kpis_table_interval tr td:nth-child(25),
+#store_kpis_table_interval tr td:nth-child(28),
+#store_kpis_table_interval_wrapper tr th:nth-child(1),
+#store_kpis_table_interval_wrapper tr th:nth-child(7),
+#store_kpis_table_interval_wrapper tr th:nth-child(10),
+#store_kpis_table_interval_wrapper tr th:nth-child(13),
+#store_kpis_table_interval_wrapper tr th:nth-child(16),
+#store_kpis_table_interval_wrapper tr th:nth-child(19),
+#store_kpis_table_interval_wrapper tr th:nth-child(22),
+#store_kpis_table_interval_wrapper tr th:nth-child(25),
+#store_kpis_table_interval_wrapper tr th:nth-child(28) {
+    border-right: 1px solid #000000;
+}
+
+#store_kpis_table_interval_wrapper .dataTables_scrollFoot tr th:nth-child(1),
+#store_kpis_table_interval_wrapper .dataTables_scrollFoot tr th:nth-child(7),
+#store_kpis_table_interval_wrapper .dataTables_scrollFoot tr th:nth-child(10),
+#store_kpis_table_interval_wrapper .dataTables_scrollFoot tr th:nth-child(13),
+#store_kpis_table_interval_wrapper .dataTables_scrollFoot tr th:nth-child(16),
+#store_kpis_table_interval_wrapper .dataTables_scrollFoot tr th:nth-child(19),
+#store_kpis_table_interval_wrapper .dataTables_scrollFoot tr th:nth-child(22),
+#store_kpis_table_interval_wrapper .dataTables_scrollFoot tr th:nth-child(25),
+#store_kpis_table_interval_wrapper .dataTables_scrollFoot tr th:nth-child(28) {
+    border-right: none;
+}
+
+
+
+#country_kpis_table tr td:nth-child(1),
+#country_kpis_table tr td:nth-child(7),
+#country_kpis_table tr td:nth-child(10),
+#country_kpis_table tr td:nth-child(13),
+#country_kpis_table tr td:nth-child(16),
+#country_kpis_table tr td:nth-child(19),
+#country_kpis_table tr td:nth-child(22),
+#country_kpis_table tr td:nth-child(25),
+#country_kpis_table tr td:nth-child(28),
+#country_kpis_table_wrapper tr th:nth-child(1),
+#country_kpis_table_wrapper tr th:nth-child(7),
+#country_kpis_table_wrapper tr th:nth-child(10),
+#country_kpis_table_wrapper tr th:nth-child(13),
+#country_kpis_table_wrapper tr th:nth-child(16),
+#country_kpis_table_wrapper tr th:nth-child(19),
+#country_kpis_table_wrapper tr th:nth-child(22),
+#country_kpis_table_wrapper tr th:nth-child(25),
+#country_kpis_table_wrapper tr th:nth-child(28) {
+    border-right: 1px solid #000000;
+}
+#country_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(1),
+#country_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(7),
+#country_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(10),
+#country_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(13),
+#country_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(16),
+#country_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(19),
+#country_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(22),
+#country_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(25),
+#country_kpis_table_wrapper .dataTables_scrollFoot tr th:nth-child(28) {
+    border-right: none;
+}
+
+#sales_report_country_table tr td:nth-child(2),
+ #sales_report_country_table_wrapper .dataTables_scrollHead tr th:nth-child(2),
+ #sales_report_country_table tr td:nth-child(9),
+ #sales_report_country_table_wrapper .dataTables_scrollHead tr th:nth-child(9)
+ {
+     border-right: 1px solid #000000;
+ }
+
+
+#sales_report_store_table tr td:nth-child(3),
+#sales_report_store_table_wrapper .dataTables_scrollHead tr th:nth-child(3),
+#sales_report_store_table tr td:nth-child(10),
+#sales_report_store_table_wrapper .dataTables_scrollHead tr th:nth-child(10)
+{
+    border-right: 1px solid #000000;
+}
+
+p.store_home_date {
+    margin: 0;
+}
+
+#store_home_table td,
+#store_home_table1 td {
+    padding: 5px 10px;
+}
