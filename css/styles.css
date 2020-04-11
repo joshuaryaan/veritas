@@ -373,6 +373,28 @@ body > .wrapper {
     border-top: 4px solid black;
 }
 
+.navbar .navbar-nav > li {
+    margin-left: 20px;
+}
+
+.navbar .navbar-nav > li > a {
+    padding: 10px 15px;
+    margin: auto 3px;
+    display: inline;
+}
+
+.navbar-default .navbar-nav > li > a:not(.btn) {
+    color: #292929;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:not(.btn):hover,
+.navbar-default .navbar-nav > .active > a:not(.btn):focus,
+.navbar-default .navbar-nav > li > a:not(.btn):hover,
+.navbar-default .navbar-nav > li > a:not(.btn):focus {
+  color: #4a4a4a;
+}
+
 .main-panel {
     max-height: calc(100% - 64px);
     height: calc(100% - 64px);
