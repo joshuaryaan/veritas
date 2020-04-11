@@ -76,7 +76,7 @@ body {
     font-weight: normal !important;
 }
 
-body,
+/*body,
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -93,7 +93,7 @@ a,
 td,
 button.close {
     font-family: "Arial Narrow", "SuisseIntl Medium", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-}
+}*/
 
 table.dataTable thead th, table.dataTable tfoot th {
     font-weight: normal;
@@ -330,15 +330,157 @@ p.store_home_date {
 
 /*JOSH*/
 
-.navbar-default {
-    background-color: #DFE3E6;
-    border-bottom: none;
-    box-shadow: 0 4px 6px 2px rgba(0,0,0,0.05);
+body {
+    background-color: #dfe2e5;
 }
 
-.main-content {
-    margin-top: 10px;
-    background-color: #DFE3E6;
+body,
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6,
+p,
+.navbar,
+.brand,
+.btn-simple,
+.alert,
+a,
+.td-name,
+td,
+button.close {
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+h4 {
+    font-weight: 400
+}
+
+.navbar-default {
+/*    background-color: #dfe2e5;*/
+    background-color: white;
+    border-bottom: none;
+    box-shadow: 0 4px 6px 2px rgba(0,0,0,0.02);
+}
+
+body > .wrapper {
+  border: none;
+}
+
+.navbar.fixed {
+    top: 0;
+    border-top: 4px solid black;
+}
+
+.main-panel {
+    max-height: calc(100% - 64px);
+    height: calc(100% - 64px);
+    position:static
+}
+
+.sidebar .logo {
+    display: none;
+}
+
+/*WIP*/
+
+.sidebar {
+    position: absolute;
+    z-index: 3;
+    margin-top: 64px;
+    max-height: calc(100% - 64px);
+/*    box-shadow: 3px 0 6px 2px rgba(0,0,0,0.03);*/
+}
+
+
+.sidebar:after {
+/*    background-color: #dfe2e5;*/
+    background-color: #f7f8fb;
+}
+
+.sidebar .sidebar-wrapper {
+/*    background-color: #dfe2e5;*/
+    background-color: #f7f8fb;
+    margin: 00px 0 0 0;
+    max-height: calc(100vh - 88px);
+    min-height: 0px;
+}
+
+.sidebar .panel {
+    background-color: inherit;
+    box-shadow: none;
+}
+
+#sidebar-accordion .panel {
+    border-radius: 0;
+    overflow: hidden;
+    margin: 0 0 0 0;
+}
+
+#sidebar-accordion .panel:first-of-type {
+    margin-top: 20px
+}
+
+#sidebar-accordion .panel-default > .panel-heading {
+    background: inherit;
+    padding: 0 0 0 20px;
+}
+
+#sidebar-accordion .panel-title {
+    color: black;
+    font-size: 12px;
+    text-transform: none;
+    letter-spacing: 0.5px
+}
+
+#sidebar-accordion .panel-body table tr td {
+    padding: 9px 5px 9px 30px;
+    background: inherit;
+    border: none;
+    font-size: 12px;
+}
+
+#sidebar-accordion .panel-body table tr td.active {
+    background-color: #F2F2F2;
+    padding: 9px 5px 9px 15px;
+    margin: 0 0 0 15px;
+    display: inline-block;
+    width: calc(100% - 15px);
+    border-radius: 3px;
+}
+
+.active a {
+    color: black;
+}
+
+#sidebar-accordion .panel-body table tr td:hover {
+    background-color: #F2F2F2;
+    padding: 9px 5px 9px 15px;
+    margin: 0 0 0 15px;
+    display: inline-block;
+    width: calc(100% - 15px);
+    border-radius: 3px;
+}
+
+#sidebar-accordion .panel-body table tr td:hover > a div {
+    color: black;
+}
+
+.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border: none;
+}
+
+/**/
+
+.main-panel > .main-content {
+    position: relative;
+    z-index: 0;
+    margin-top: 64px;
+    padding-top: 20px;
+    min-height: calc(100% - 123px);
+/*    background-color: #dfe2e5;*/
+    background-color: #f7f8fb;
 }
 
 .container-fluid, .navbar-collapse {
@@ -351,7 +493,7 @@ p.store_home_date {
 }
 
 #filter-refresh-container {
-    background-color: #DFE3E6;
+    background-color: #dfe2e5;
 }
 
 .dashboard .col-md-2 {
@@ -363,7 +505,7 @@ p.store_home_date {
     cursor: pointer;
     margin: 0 0 10px 0;
     box-sizing: border-box;
-    padding: 10px 30px 10px 10px;
+    padding: 12px 30px 12px 10px;
     position: relative;
     color: #ffffff;
     border-radius: 5px;
@@ -411,10 +553,15 @@ input[type=radio]:not(.sol-radio) {
 
 .card {
     margin-bottom: 20px;
-    background-color: #FAF9F0;
-    border: none;
+    background-color: #fdfdfd;
+    border: solid 1px #ebecf1;
     border-radius: 5px;
-    box-shadow: 2px 2px 4px 2px rgba(0,0,0,0.05);
+/*    box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.01);*/
+}
+
+.card .title {
+    font-size: 13px;
+    font-weight: 300;
 }
 
 /*JOSH*/
