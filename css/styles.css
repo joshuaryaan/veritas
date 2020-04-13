@@ -361,7 +361,7 @@ h4 {
 /*    background-color: #dfe2e5;*/
     background-color: white;
     border-bottom: none;
-    box-shadow: 0 4px 6px 2px rgba(0,0,0,0.02);
+    box-shadow: 0 4px 6px 2px rgba(0,0,0,0.01);
 }
 
 body > .wrapper {
@@ -415,15 +415,14 @@ body > .wrapper {
 /*    box-shadow: 3px 0 6px 2px rgba(0,0,0,0.03);*/
 }
 
-
 .sidebar:after {
 /*    background-color: #dfe2e5;*/
-    background-color: #f7f8fb;
+    background-color: #f5f5f5;
 }
 
 .sidebar .sidebar-wrapper {
 /*    background-color: #dfe2e5;*/
-    background-color: #f7f8fb;
+    background-color: #f5f5f5;
     margin: 00px 0 0 0;
     max-height: calc(100vh - 88px);
     min-height: 0px;
@@ -441,7 +440,7 @@ body > .wrapper {
 }
 
 #sidebar-accordion .panel:first-of-type {
-    margin-top: 20px
+    margin-top: 16px
 }
 
 #sidebar-accordion .panel-default > .panel-heading {
@@ -464,7 +463,7 @@ body > .wrapper {
 }
 
 #sidebar-accordion .panel-body table tr td.active {
-    background-color: #F2F2F2;
+    background-color: #EBEBEB;
     padding: 9px 5px 9px 15px;
     margin: 0 0 0 15px;
     display: inline-block;
@@ -477,7 +476,7 @@ body > .wrapper {
 }
 
 #sidebar-accordion .panel-body table tr td:hover {
-    background-color: #F2F2F2;
+    background-color: #F0F0F0;
     padding: 9px 5px 9px 15px;
     margin: 0 0 0 15px;
     display: inline-block;
@@ -502,7 +501,7 @@ body > .wrapper {
     padding-top: 20px;
     min-height: calc(100% - 123px);
 /*    background-color: #dfe2e5;*/
-    background-color: #f7f8fb;
+    background-color: #f5f5f5;
 }
 
 .container-fluid, .navbar-collapse {
@@ -515,7 +514,7 @@ body > .wrapper {
 }
 
 #filter-refresh-container {
-    background-color: #dfe2e5;
+    background-color: #f5f5f5;
 }
 
 .dashboard .col-md-2 {
@@ -529,10 +528,10 @@ body > .wrapper {
     box-sizing: border-box;
     padding: 12px 30px 12px 10px;
     position: relative;
-    color: #ffffff;
-    border-radius: 5px;
-    background: #9CA1A6;
-    box-shadow: 4px 5px 4px 2px rgba(0,0,0,0.03);
+    color: black;
+    border-radius: 3px;
+    background-color: #E0E0E0;
+/*    box-shadow: 4px 5px 4px 2px rgba(0,0,0,0.03);*/
 }
 
 .accordion > div[class$="-content"] {
@@ -540,10 +539,14 @@ body > .wrapper {
     padding: 10px 4px;
 }
 
+label {
+    font-weight: 400;
+}
+
 .accordion button {
-    border-radius: 5px;
+    border-radius: 3px;
     border: solid 1px #D1D1D1;
-    background-color: #D4D4D4;
+    background-color: #EBEBEB;
     letter-spacing: 0.3px;
     margin: 0 0 8px 0;
     box-shadow: 4px 5px 4px 2px rgba(0,0,0,0.02);
@@ -584,6 +587,10 @@ input[type=radio]:not(.sol-radio) {
 .card .title {
     font-size: 13px;
     font-weight: 300;
+}
+
+#min-max-save {
+    display: block;
 }
 
 /*JOSH*/
