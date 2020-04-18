@@ -477,6 +477,8 @@ body > .wrapper {
     background: inherit;
     border: none;
     font-size: 12px;
+    width: calc(100% - 15px);
+    display: inline-block;
 }
 
 #sidebar-accordion .panel-body table tr td.active {
