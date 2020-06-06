@@ -340,6 +340,11 @@ p.store_home_date {
     box-shadow: 0px 2px 4px 3px rgba(135, 135, 135, 0.05);
 }
 
+.col-md-10 {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
 .card {
     border: none;
     border-radius: 3px;
@@ -353,14 +358,18 @@ p.store_home_date {
 }
 
 .card h4 {
-    font-size: 12px;
-    letter-spacing: 0.1px;
+    font-size: 13px;
+    letter-spacing: 0.2px;
     font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .card .content > div[id]:not([data-highcharts-chart]):not(.dataTables_wrapper):before,
 .card .content > a[href] > div[id]:not([data-highcharts-chart]):not(.dataTables_wrapper):before {
   display: none;
+}
+
+#filter-container > .filter {
+    border-left: solid 2px #d6dadd;
 }
 
 table.dataTable tbody tr.odd {
