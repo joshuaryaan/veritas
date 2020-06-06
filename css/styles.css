@@ -337,7 +337,6 @@ p.store_home_date {
 
 .navbar-default {
     border-bottom: 4px solid #d6dadd;
-    box-shadow: 0px 2px 4px 3px rgba(135, 135, 135, 0.05);
 }
 
 .col-md-10 {
@@ -358,9 +357,7 @@ p.store_home_date {
 }
 
 .card h4 {
-    font-size: 13px;
     letter-spacing: 0.2px;
-    font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .card .content > div[id]:not([data-highcharts-chart]):not(.dataTables_wrapper):before,
