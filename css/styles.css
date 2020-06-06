@@ -76,7 +76,7 @@ body {
     font-weight: normal !important;
 }
 
-/*body,
+body,
 h1, .h1,
 h2, .h2,
 h3, .h3,
@@ -93,7 +93,7 @@ a,
 td,
 button.close {
     font-family: "Arial Narrow", "SuisseIntl Medium", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
-}*/
+}
 
 table.dataTable thead th, table.dataTable tfoot th {
     font-weight: normal;
@@ -328,284 +328,45 @@ p.store_home_date {
     padding: 5px 10px;
 }
 
-/*JOSH*/
-
-body {
-    background-color: #dfe2e5;
-}
-
-body,
-h1, .h1,
-h2, .h2,
-h3, .h3,
-h4, .h4,
-h5, .h5,
-h6, .h6,
-p,
-.navbar,
-.brand,
-.btn-simple,
-.alert,
-a,
-.td-name,
-td,
-button.close {
-    font-family: Tahoma, Verdana, Segoe, sans-serif;
-}
-
-h4 {
-    font-weight: 400
-}
-
-.navbar-default {
-/*    background-color: #dfe2e5;*/
-    background-color: #fafafa;
-    border-bottom: none;
-    box-shadow: 0 4px 8px 4px rgba(0,0,0,0.02);
-}
-
-body > .wrapper {
-  border: none;
-}
-
-.navbar.fixed {
-    top: 0;
-    border-top: none;
-    padding-left: 20px;
-    height: 60px !important;
-}
-
-.navbar-default .navbar-brand {
-    color: #242424;
-    letter-spacing: 0.7px;
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.navbar-default .navbar-brand:hover {
-    color: black;
-}
-
-.navbar-collapse {
-    padding-right: 25px;
-}
-
-.navbar .navbar-nav > li {
-    margin-left: 30px;
-}
-
-.navbar .navbar-nav > li > a {
-    padding: 10px 15px;
-    margin: auto 3px;
-    display: inline;
-}
-
-.navbar-default .navbar-nav > li > a:not(.btn) {
-    color: #242424;
-}
-
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:not(.btn):hover,
-.navbar-default .navbar-nav > .active > a:not(.btn):focus,
-.navbar-default .navbar-nav > li > a:not(.btn):hover,
-.navbar-default .navbar-nav > li > a:not(.btn):focus {
-  color: black;
-}
-
-.main-panel {
-    max-height: calc(100% - 60px);
-    height: calc(100% - 60px);
-    position:static
-}
-
-.sidebar .logo {
-    display: none;
-}
-
-/*WIP*/
-
-.sidebar {
-    position: absolute;
-    z-index: 3;
-    margin-top: 60px;
-    max-height: calc(100% - 60px);
-/*    box-shadow: 3px 0 6px 2px rgba(0,0,0,0.03);*/
-}
-
-.sidebar:after {
-/*    background-color: #dfe2e5;*/
-    background-color: #ebebeb;
-}
-
-.sidebar .sidebar-wrapper {
-/*    background-color: #dfe2e5;*/
-    background-color: #ebebeb;
-    margin: 00px 0 0 0;
-    max-height: calc(100vh - 88px);
-    min-height: 0px;
-}
-
-.sidebar .panel {
-    background-color: inherit;
-    box-shadow: none;
-}
-
-#sidebar-accordion .panel {
-    border-radius: 0;
-    overflow: hidden;
-    margin: 0 0 0 0;
-}
-
-#sidebar-accordion .panel:first-of-type {
-    margin-top: 26px
-}
-
-#sidebar-accordion .panel-default > .panel-heading {
-    background: inherit;
-    padding: 0 0 0 20px;
-}
-
-#sidebar-accordion .panel-title {
-    color: black;
-    font-size: 12px;
-    text-transform: none;
-    letter-spacing: 0.5px
-}
-
-#sidebar-accordion .panel-body table tr td {
-    padding: 9px 5px 9px 30px;
-    background: inherit;
-    border: none;
-    font-size: 12px;
-    width: calc(100% - 15px);
-    display: inline-block;
-}
-
-#sidebar-accordion .panel-body table tr td.active {
-    background-color: #D6D6D6;
-    padding: 9px 5px 9px 15px;
-    margin: 0 0 0 15px;
-    display: inline-block;
-    width: calc(100% - 15px);
-    border-radius: 3px;
-}
-
-.active a {
-    color: black;
-}
-
-#sidebar-accordion .panel-body table tr td:hover {
-    background-color: #E0E0E0;
-    padding: 9px 5px 9px 15px;
-    margin: 0 0 0 15px;
-    display: inline-block;
-    width: calc(100% - 15px);
-    border-radius: 3px;
-}
-
-#sidebar-accordion .panel-body table tr td:hover > a div {
-    color: black;
-}
-
-.panel-group .panel-heading+.panel-collapse>.list-group, .panel-group .panel-heading+.panel-collapse>.panel-body {
-    border: none;
-}
-
-/**/
-
-.main-panel > .main-content {
-    position: relative;
-    z-index: 0;
-    margin-top: 60px;
-    padding-top: 30px;
-    min-height: calc(100% - 123px);
-/*    background-color: #dfe2e5;*/
-    background-color: #ebebeb;
-}
-
-.container-fluid, .navbar-collapse {
-    background-color: inherit;
-}
-
-#filter-container > .filter {
-    border-left: none;
-    min-height: calc(100vh - 92px);
-}
-
-#filter-refresh-container {
-    background-color: #ebebeb;
-}
-
-.dashboard .col-md-2 {
-    padding: 0 20px 5px 0; 
-    overflow: hidden;
-}
-
-.accordion > h5, .accordion-toggle > h3 {
-    cursor: pointer;
-    margin: 0 0 10px 0;
-    box-sizing: border-box;
-    padding: 12px 30px 12px 10px;
-    position: relative;
-    color: black;
-    border-radius: 3px;
-    background-color: #D6D6D6;
-/*    box-shadow: 4px 5px 4px 2px rgba(0,0,0,0.03);*/
-}
-
-.accordion > div[class$="-content"] {
-    margin: 0;
-    padding: 10px 4px;
-}
-
-.accordion button {
-    border-radius: 3px;
-    border: solid 1px #D1D1D1;
-    background-color: #EBEBEB;
-    letter-spacing: 0.3px;
-    margin: 0 0 8px 0;
-    box-shadow: 4px 5px 4px 2px rgba(0,0,0,0.02);
-}
-
-label {
-    font-weight: 400;
-}
-
-input[type=checkbox]:not(.sol-checkbox), 
-input[type=radio]:not(.sol-radio) {
-    position: relative;
-    top: 0;
-}
+/*CUSTOM*/
 
 .col-md-4 {
     padding-left: 10px;
     padding-right: 10px;
 }
 
-.col-md-10 {
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-.row {
-    margin: 0;
+.navbar-default {
+    border-bottom: 4px solid #d6dadd;
+    box-shadow: 0px 2px 4px 3px rgba(135, 135, 135, 0.05);
 }
 
 .card {
+    border: none;
+    border-radius: 3px;
     margin-bottom: 20px;
-    background-color: #fdfdfd;
-    border: solid 1px #E6E7EB;
-    border-radius: 6px;
-/*    box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.01);*/
+    background-color: #f9f8f3;
+    box-shadow: 0px 0px 4px 3px rgba(135, 135, 135, 0.1);
 }
 
-.card .title {
-    font-size: 13px;
-    font-weight: 300;
+.card .content {
+    padding: 10px 10px 10px 10px;
 }
 
-#min-max-save {
-    display: block;
+.card h4 {
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 
-/*JOSH*/
+.card .content > div[id]:not([data-highcharts-chart]):not(.dataTables_wrapper):before,
+.card .content > a[href] > div[id]:not([data-highcharts-chart]):not(.dataTables_wrapper):before {
+  display: none;
+}
+
+table.dataTable tbody tr.odd {
+    background-color: #f9f8f3 !important;
+}
+
+tr th {
+    background-color: #f9f8f3 !important;
+}
