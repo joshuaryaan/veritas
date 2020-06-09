@@ -7,9 +7,9 @@ table.dataTable tbody tr td {
     border: 1px solid red;
 }
 
-#min-max-save {
+/*#min-max-save {
     display: none;
-}
+}*/
 
 .popover-title {
     display: none;
@@ -330,6 +330,12 @@ p.store_home_date {
 
 /*CUSTOM*/
 
+.panel-default>.panel-heading .panel-title {
+    text-transform: capitalize !important;
+    font-size: 15px !important;
+    letter-spacing: 0.15px;
+}
+
 .col-md-4 {
     padding-left: 10px;
     padding-right: 10px;
@@ -350,6 +356,13 @@ p.store_home_date {
     margin-bottom: 20px;
     background-color: #f9f8f3;
     box-shadow: 0px 0px 4px 3px rgba(135, 135, 135, 0.1);
+    transition: box-shadow 300ms;
+    transition: background-color 300ms;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 4px 4px rgba(135, 135, 135, 0.15);
+    background-color: #FAF8F5;
 }
 
 .card .content {
