@@ -389,3 +389,13 @@ table.dataTable tbody tr.odd {
 tr th {
     background-color: #f9f8f3 !important;
 }
+
+.accordion > h5, .accordion-toggle > h3 {
+    display: none;
+}
+
+.accordion > div[class$="-content"] {
+    display: none;
+    margin: 0 10px 20px 10px;
+    padding: 0;
+}
