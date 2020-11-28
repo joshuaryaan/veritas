@@ -342,7 +342,12 @@ p.store_home_date {
 }
 
 .navbar-default {
-    border-bottom: 4px solid #d6dadd;
+    border-bottom: 4px solid #eff3f5;
+}
+
+.main-panel > .main-content {
+    padding-top: 68px;
+    min-height: calc(100% - 68px);
 }
 
 .col-md-10 {
@@ -351,18 +356,17 @@ p.store_home_date {
 }
 
 .card {
-    border: none;
-    border-radius: 3px;
+    border: solid 1px #ebebeb;
+    border-radius: 6px;
     margin-bottom: 20px;
-    background-color: #f9f8f3;
-    box-shadow: 0px 0px 4px 3px rgba(135, 135, 135, 0.1);
+    background-color: white;
+    box-shadow: 0px 0px 2px 2px rgba(135, 135, 135, 0.05);
     transition: box-shadow 300ms;
     transition: background-color 300ms;
 }
 
 .card:hover {
-    box-shadow: 0px 0px 4px 4px rgba(135, 135, 135, 0.15);
-    background-color: #FAF8F5;
+    box-shadow: 0px 0px 2px 2px rgba(135, 135, 135, 0.08);
 }
 
 .card .content {
@@ -379,7 +383,7 @@ p.store_home_date {
 }
 
 #filter-container > .filter {
-    border-left: solid 2px #d6dadd;
+    border-left: solid 2px #eff3f5;
 }
 
 table.dataTable tbody tr.odd {
@@ -390,12 +394,16 @@ tr th {
     background-color: #f9f8f3 !important;
 }
 
-.accordion > h5, .accordion-toggle > h3 {
-    display: none;
+/*BG COLOR*/
+
+.container-fluid, .navbar-collapse, .main-content, .logo, body, #filter-refresh-container, #filter {
+    background-color: #eff3f5;
 }
 
-.accordion > div[class$="-content"] {
-    display: none;
-    margin: 0 10px 20px 10px;
-    padding: 0;
+#progress {
+    background-color: #eff3f5;
+}
+
+.sidebar-wrapper {
+    background-color: #eff3f5;
 }
