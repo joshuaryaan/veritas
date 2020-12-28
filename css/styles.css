@@ -478,11 +478,12 @@ h4, .h4 {
 }
 
 #sidebar-accordion .panel-body table tr td {
-    padding: 15px 15px 15px 15px;
+    padding: 15px 15px 15px 10px;
     font-size: 12px;
     letter-spacing: 0.4px;
     background: none;
     border-top: none;
+    line-height: 1.6
 }
 
 #sidebar-accordion .panel-body table tr td a {
@@ -507,10 +508,21 @@ h4, .h4 {
     margin-right:6px;
 }
 
-#sidebar-accordion .panel-body table tr:nth-of-type(3) td a::before {
-    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/deba60ed7f6a71e3ae90a012de6f3b629173d072/images/consultant.svg);
+/*PRODUCTIVITY*/
+.panel-group .panel-body:nth-of-type(1) table tr:nth-of-type(2) td a::before {
+    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/ea866b680d5ab3badf8dd3cf545d08fb6c24296b/images/productivity.svg);
 }
 
+/*CONSULTANT*/
 #sidebar-accordion .panel-body table tr:nth-of-type(3) td a::before {
+    background-image: url('https://raw.githubusercontent.com/joshuaryaan/veritas/ea866b680d5ab3badf8dd3cf545d08fb6c24296b/images/consultant.svg');
+}
+
+/*TRAFFIC*/
+#sidebar-accordion .panel-body table tr:nth-of-type(4) td a::before {
+    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/23cedd39030c818fe07b28ba05cca390f27451de/images/traffic.svg);
+}
+
+.panel-group .panel-body:nth-of-type(2) table tr:nth-of-type(2) td a::before {
     background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/23cedd39030c818fe07b28ba05cca390f27451de/images/traffic.svg);
 }
