@@ -496,3 +496,21 @@ h4, .h4 {
 #sidebar-accordion .panel-body table tr td:hover a, #sidebar-accordion .panel-body table tr td.active a {
     color: black;
 }
+
+#sidebar-accordion .panel-body table tr td a::before {
+    background-size: 19px 19px;
+    display: inline-block;
+    width: 19px; 
+    height: 19px;
+    content:"";
+    float: left;
+    margin-right:6px;
+}
+
+#sidebar-accordion .panel-body table tr:nth-of-type(3) td a::before {
+    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/deba60ed7f6a71e3ae90a012de6f3b629173d072/images/consultant.svg);
+}
+
+#sidebar-accordion .panel-body table tr:nth-of-type(3) td a::before {
+    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/23cedd39030c818fe07b28ba05cca390f27451de/images/traffic.svg);
+}
