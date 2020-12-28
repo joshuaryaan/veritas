@@ -508,21 +508,42 @@ h4, .h4 {
     margin-right:6px;
 }
 
+/*SALES REPORT*/
+.sidebar-wrapper .panel-group .panel:nth-of-type(1) table tr:nth-of-type(1) td a::before {
+    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/922af314fa803766963c26b80ebf58931067f753/images/salesreport.svg);
+}
+
 /*PRODUCTIVITY*/
-.panel-group .panel-body:nth-of-type(1) table tr:nth-of-type(2) td a::before {
+.sidebar-wrapper .panel-group .panel:nth-of-type(2) table tr:nth-of-type(2) td a::before {
     background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/ea866b680d5ab3badf8dd3cf545d08fb6c24296b/images/productivity.svg);
 }
 
 /*CONSULTANT*/
-#sidebar-accordion .panel-body table tr:nth-of-type(3) td a::before {
+.sidebar-wrapper .panel-group .panel:nth-of-type(2) table tr:nth-of-type(3) td a::before {
     background-image: url('https://raw.githubusercontent.com/joshuaryaan/veritas/ea866b680d5ab3badf8dd3cf545d08fb6c24296b/images/consultant.svg');
 }
 
 /*TRAFFIC*/
-#sidebar-accordion .panel-body table tr:nth-of-type(4) td a::before {
-    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/23cedd39030c818fe07b28ba05cca390f27451de/images/traffic.svg);
+.sidebar-wrapper .panel-group .panel:nth-of-type(2) table tr:nth-of-type(4) td a::before {
+    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/3d6b9244b91de82516ba0337ad6ddbe1ab791ea7/images/traffic.svg);
 }
 
-.panel-group .panel-body:nth-of-type(2) table tr:nth-of-type(2) td a::before {
-    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/23cedd39030c818fe07b28ba05cca390f27451de/images/traffic.svg);
+/*PRODUCT*/
+.sidebar-wrapper .panel-group .panel:nth-of-type(2) table tr:nth-of-type(5) td a::before {
+    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/922af314fa803766963c26b80ebf58931067f753/images/product.svg);
+}
+
+/*INVENTORY*/
+.sidebar-wrapper .panel-group .panel:nth-of-type(3) table tr:nth-of-type(1) td a::before {
+    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/a9a4d4ecb9e9612ee3acc8f09a27027fb6fdaa0d/images/inventory.svg);
+}
+
+/*TRAFFIC*/
+.sidebar-wrapper .panel-group .panel:nth-of-type(3) table tr:nth-of-type(2) td a::before {
+    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/ea866b680d5ab3badf8dd3cf545d08fb6c24296b/images/replenishment.svg);
+}
+
+/*DONATION*/
+.sidebar-wrapper .panel-group .panel:nth-of-type(4) table tr:nth-of-type(1) td a::before {
+    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/922af314fa803766963c26b80ebf58931067f753/images/donation.svg);
 }
