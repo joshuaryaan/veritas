@@ -7,9 +7,9 @@ table.dataTable tbody tr td {
     border: 1px solid red;
 }
 
-#min-max-save {
+/*#min-max-save {
     display: none;
-}
+}*/
 
 .popover-title {
     display: none;
@@ -326,4 +326,173 @@ p.store_home_date {
 #store_home_table td,
 #store_home_table1 td {
     padding: 5px 10px;
+}
+
+/*CUSTOM*/
+
+.panel-default>.panel-heading .panel-title {
+    text-transform: capitalize !important;
+    font-size: 15px !important;
+    letter-spacing: 0.15px;
+}
+
+.col-md-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar-default {
+/*    border-bottom: 4px solid #eff3f5;*/
+    border-bottom: none;
+    background-color: transparent !important;
+    padding-left: 150px
+}
+
+.main-panel > .main-content {
+    padding-top: 76px;
+    min-height: calc(100% - 66px);
+}
+
+.col-md-10 {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.card {
+    border: solid 1px #ebebeb;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color: white !important;
+    box-shadow: 3px 3px 4px 1px rgba(135, 135, 135, 0.04);
+    transition: box-shadow 300ms;
+    transition: background-color 300ms;
+}
+
+.card:hover {
+    box-shadow: 4px 4px 4px 1px rgba(135, 135, 135, 0.07);
+}
+
+.card .content {
+    padding: 10px 10px 10px 10px;
+}
+
+.card h4 {
+    letter-spacing: 0.4px;
+    color: #444444 !important;
+    font-size: 13px;
+}
+
+.card .content > div[id]:not([data-highcharts-chart]):not(.dataTables_wrapper):before,
+.card .content > a[href] > div[id]:not([data-highcharts-chart]):not(.dataTables_wrapper):before {
+  display: none;
+}
+
+#filter-container > .filter {
+    border-left: solid 2px #eff3f5;
+}
+
+table.dataTable tbody tr.odd {
+    background-color: #f9f8f3 !important;
+}
+
+tr th {
+    background-color: #f9f8f3 !important;
+}
+
+/*BG COLOR*/
+
+.container-fluid, .main-content, body, #filter-refresh-container, #filter {
+    background-color: #eff3f5 !important;
+}
+
+#progress {
+    background-color: #eff3f5;
+}
+
+.navbar-default, .navbar-collapse {
+    background-color: transparent;
+}
+
+.sidebar-wrapper {
+    background-color: white;
+}
+
+.logo {
+    background-color: white !important;
+}
+
+/* FONT*/
+
+body, h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-simple, .alert, a, .td-name, td, button.close {
+    font-family: "Arial", "Helvetica", sans-serif !important;
+    font-weight: 500 !important;
+}
+
+/*SIDEBAR*/
+
+.sidebar-wrapper {
+    border-right: solid 1px #ebebeb;
+}
+
+.sidebar .logo, body > .navbar-collapse .logo {
+    padding: 19px 0px;
+    border-bottom: none;
+    width: 80%;
+}
+
+.panel-group .panel {
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.panel-group .panel+.panel {
+    margin-top: 0;
+}
+
+#sidebar-accordion .panel-heading {
+    padding: 10px 10px;
+    display: none
+}
+
+h4, .h4 {
+    line-height: inherit;
+}
+
+#sidebar-accordion .panel-default > .panel-heading {
+    background: none;
+    padding: 0;
+}
+
+#sidebar-accordion .panel-title {
+    color: #444444;
+}
+
+.panel-default>.panel-heading .panel-title {
+    font-size: 13px !important;
+    letter-spacing: 0.5px;
+    padding: 10px 5px 10px 15px;
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top: none;
+}
+
+#sidebar-accordion .panel-body table tr td {
+    padding: 15px 15px 15px 15px;
+    font-size: 12px;
+    letter-spacing: 0.4px;
+    background: none;
+    border-top: none;
+}
+
+#sidebar-accordion .panel-body table tr td a {
+    color: #444444;
+}
+
+#sidebar-accordion .panel-body table tr td:hover, #sidebar-accordion .panel-body table tr td.active {
+    background-color: #f5f5f5;
+}
+
+#sidebar-accordion .panel-body table tr td:hover a, #sidebar-accordion .panel-body table tr td.active a {
+    color: black;
 }
