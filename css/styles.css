@@ -341,11 +341,43 @@ p.store_home_date {
     padding-right: 10px;
 }
 
+.navbar-collapse {
+    margin-top: 6px;
+}
+   
 .navbar-default {
-/*    border-bottom: 4px solid #eff3f5;*/
+/*    border-bottom: 4px solid #EAEEF1;*/
     border-bottom: none;
     background-color: transparent !important;
     padding-left: 150px
+}
+
+.navbar-brand {
+    display: none;
+}
+
+.navbar-default .navbar-nav > li > a:not(.btn) {
+    color: #444444;
+}
+
+.navbar .navbar-nav > li > a {
+    padding: 10px 15px;
+    margin: 10px 6px;
+    background-color: white;
+    border-radius: 16px !important;
+    box-shadow: 2px 2px 5px 3px rgba(135, 135, 135, 0.06);
+}
+
+.navbar-default .navbar-nav>.disabled>a {
+    color: #ccc;
+    background-color: #fafafa;
+}
+
+.navbar-default .navbar-nav > li > a:not(.btn):hover {
+    background-color: #fafafa;
+    border-radius: 3px;
+    color: black;
+    box-shadow: 3px 3px 6px 4px rgba(135, 135, 135, 0.05);
 }
 
 .main-panel > .main-content {
@@ -388,7 +420,7 @@ p.store_home_date {
 }
 
 #filter-container > .filter {
-    border-left: solid 2px #eff3f5;
+    border-left: solid 2px #EAEEF1;
 }
 
 table.dataTable tbody tr.odd {
@@ -401,12 +433,16 @@ tr th {
 
 /*BG COLOR*/
 
-.container-fluid, .main-content, body, #filter-refresh-container, #filter {
-    background-color: #eff3f5 !important;
+.main-panel, #filter-refresh-container, #filter {
+    background: #EAEEF1;
+}
+
+.container-fluid, .main-content, body {
+    background-color: transparent !important;
 }
 
 #progress {
-    background-color: #eff3f5;
+    background-color: #EAEEF1;
 }
 
 .navbar-default, .navbar-collapse {
@@ -483,7 +519,8 @@ h4, .h4 {
     letter-spacing: 0.4px;
     background: none;
     border-top: none;
-    line-height: 1.6
+    line-height: 1.6;
+        cursor: pointer
 }
 
 #sidebar-accordion .panel-body table tr td a {
@@ -498,11 +535,39 @@ h4, .h4 {
     color: black;
 }
 
+/*FILTER*/
+
+.accordion > h5, .accordion-toggle > h3 {
+    cursor: pointer;
+    margin: 10px 10px 10px 5px;
+    padding: 14px 30px 14px 0px;
+    color: #444444;
+    border-radius: 0;
+    background: transparent;
+    font-size: 12px;
+    letter-spacing: 0.3px;
+}
+
+.accordion > h5:after, .accordion-toggle > h3:after {
+    width: 0;
+    height: 0;
+    border-top: none;
+    border: none;
+}
+
+.accordion > div[class$="-content"] {
+    display: none;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 0 0px;
+}
+
+/*ICONS*/
+
 #sidebar-accordion .panel-body table tr td a::before {
-    background-size: 19px 19px;
+    background-size: 18px 18px;
     display: inline-block;
-    width: 19px; 
-    height: 19px;
+    width: 18px; 
+    height: 18px;
     content:"";
     float: left;
     margin-right:6px;
@@ -511,6 +576,11 @@ h4, .h4 {
 /*SALES REPORT*/
 .sidebar-wrapper .panel-group .panel:nth-of-type(1) table tr:nth-of-type(1) td a::before {
     background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/922af314fa803766963c26b80ebf58931067f753/images/salesreport.svg);
+}
+
+/*STORE SUMMARY*/
+.sidebar-wrapper .panel-group .panel:nth-of-type(2) table tr:nth-of-type(1) td a::before {
+    background-image: url(https://raw.githubusercontent.com/joshuaryaan/veritas/b2af719556ee61bd5fc0cc3dde78d080eec2148d/images/storesummary.svg);
 }
 
 /*PRODUCTIVITY*/
