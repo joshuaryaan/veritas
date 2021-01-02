@@ -346,7 +346,7 @@ p.store_home_date {
 }
    
 .navbar-default {
-/*    border-bottom: 4px solid #EAEEF1;*/
+/*    border-bottom: 4px solid #E7EAEE;*/
     border-bottom: none;
     background-color: transparent !important;
     padding-left: 150px
@@ -399,13 +399,13 @@ p.store_home_date {
     border-radius: 6px;
     margin-bottom: 20px;
     background-color: white !important;
-    box-shadow: 3px 3px 4px 1px rgba(135, 135, 135, 0.04);
+    box-shadow: 2px 3px 2px 2px rgba(135, 135, 135, 0.04);
     transition: box-shadow 300ms;
     transition: background-color 300ms;
 }
 
 .card:hover {
-    box-shadow: 4px 4px 4px 1px rgba(135, 135, 135, 0.07);
+    box-shadow: 3px 4px 2px 2px rgba(135, 135, 135, 0.05);
 }
 
 .card .content {
@@ -424,7 +424,7 @@ p.store_home_date {
 }
 
 #filter-container > .filter {
-    border-left: solid 2px #EAEEF1;
+    border-left: solid 2px #E7EAEE;
 }
 
 table.dataTable tbody tr.odd {
@@ -435,15 +435,10 @@ tr th {
     background-color: #f9f8f3 !important;
 }
 
-.form-control {
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px 2px rgba(135, 135, 135, 0.05);
-}
-
 /*BG COLOR*/
 
 .main-panel, #filter-refresh-container, #filter {
-    background: #EAEEF1;
+    background: #E7EAEE;
 }
 
 .container-fluid, .main-content, body {
@@ -451,7 +446,7 @@ tr th {
 }
 
 #progress {
-    background-color: #EAEEF1;
+    background-color: #E7EAEE;
 }
 
 .navbar-default, .navbar-collapse {
@@ -626,6 +621,50 @@ h4, .h4 {
 }
 
 .accordion > div[class$="-content"] {
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 0 5px;
+    margin: 0 10px 10px 10px;
+    padding: 5px 10px 0 5px;
+}
+
+.accordion h5 {
+    font-weight: 700 !important;
+    margin: 10px 10px 0 10px !important;
+    padding: 14px 0 14px 0 !important;
+}
+
+.accordion-heading {
+    margin-bottom: 4px;
+    font-weight: 700
+}
+
+.accordion label {
+    margin-bottom: 7px;
+    font-weight: 400;
+    letter-spacing: 0.2px
+}
+
+.form-control {
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px rgba(135, 135, 135, 0.05);
+}
+
+.form-control:hover {
+    box-shadow: 3px 3px 5px 3px rgba(135, 135, 135, 0.07);
+}
+
+.btn {
+    border: none;
+    border-radius: 10px;
+    background-color: #D0D5DD;
+    padding: 8px 16px;
+    color: #474747;
+    letter-spacing: 0.5px;
+    box-shadow: 2px 2px 4px 2px rgba(135, 135, 135, 0.05);
+}
+
+.accordion .btn {
+    margin: 0 0 12px 0;
+}
+
+.input-group {
+    margin-top: 2px;
 }
