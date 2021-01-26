@@ -360,7 +360,8 @@ p.store_home_date {
     color: #444444;
 }
 
-.navbar-default .navbar-nav > li > a:not(.btn):hover {
+.navbar-default .navbar-nav > li > a:not(.btn):hover,
+.navbar-default .navbar-nav > li > a:hover{
     border-radius: 16px !important;
 }
 
@@ -691,6 +692,11 @@ h4, .h4 {
     margin: 0 0 12px 0;
 }
 
+.accordion-targets-content .input-group-btn .btn {
+    height: 42px;
+    line-height: 1.8
+}
+
 .input-group {
     margin-top: 2px;
 }
@@ -698,7 +704,6 @@ h4, .h4 {
 /*TEMP -TESTING*/
 
 #min-max-save {
-    display: none;
     margin-bottom: 10px;
 }
 
