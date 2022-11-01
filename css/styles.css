@@ -377,6 +377,7 @@ p.store_home_date {
     letter-spacing: 0.2px;
 }
 
+
 .card .content > div[id]:not([data-highcharts-chart]):not(.dataTables_wrapper):before,
 .card .content > a[href] > div[id]:not([data-highcharts-chart]):not(.dataTables_wrapper):before {
   display: none;
